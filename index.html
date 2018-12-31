@@ -16,7 +16,7 @@
         <form>
           <label for="CR">Total CR: </label>
           <input type="text" id="CR" value=0 />
-          <input type="checkbox" id="CRLock" />
+          <input type="checkbox" id="CRLock" onclick="checkHandler(event)" />
           <label for="CRLock">Lock</label>
         </form>
       </td>
@@ -28,7 +28,7 @@
         <form>
           <label for="OCR">Offensive CR: </label>
           <input type="text" id="OCR" value=0 disabled />
-          <input type="checkbox" id="OCRLock" disabled />
+          <input type="checkbox" id="OCRLock" disabled onclick="checkHandler(event)" />
           <label for="OCRLock">Lock</label>
         </form>
       </td>
@@ -37,7 +37,7 @@
         <form>
           <label for="DCR">Defensive CR: </label>
           <input type="text" id="DCR" value=0 disabled />
-          <input type="checkbox" id="DCRLock" disabled />
+          <input type="checkbox" id="DCRLock" disabled onclick="checkHandler(event)" />
           <label for="DCRLock">Lock</label>
         </form>
       </td>
