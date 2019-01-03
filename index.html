@@ -3,6 +3,7 @@
 
 <head>
   <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script src="js/jquery-3.3.1.slim.js"></script>
   <script src="js/script.js"></script>
 </head>
 
@@ -13,10 +14,10 @@
     <tr>
       <td colspan="4">
 
-        <form>
+        <form autocomplete="off">
           <label for="CR">Total CR: </label>
           <input type="text" id="CR" value=0 />
-          <input type="checkbox" id="CRLock" onclick="checkHandler(event)" />
+          <input type="checkbox" id="CRLock" />
           <label for="CRLock">Lock</label>
         </form>
       </td>
@@ -25,19 +26,19 @@
     <tr>
 
       <td colspan="2">
-        <form>
+        <form autocomplete="off">
           <label for="OCR">Offensive CR: </label>
           <input type="text" id="OCR" value=0 disabled />
-          <input type="checkbox" id="OCRLock" disabled onclick="checkHandler(event)" />
+          <input type="checkbox" id="OCRLock" disabled />
           <label for="OCRLock">Lock</label>
         </form>
       </td>
 
       <td colspan="2">
-        <form>
+        <form autocomplete="off">
           <label for="DCR">Defensive CR: </label>
           <input type="text" id="DCR" value=0 disabled />
-          <input type="checkbox" id="DCRLock" disabled onclick="checkHandler(event)" />
+          <input type="checkbox" id="DCRLock" disabled />
           <label for="DCRLock">Lock</label>
         </form>
       </td>
@@ -47,28 +48,28 @@
     <tr>
 
       <td>
-        <form>
+        <form autocomplete="off">
           <label for="Damage">Damage: </label>
           <input type="text" id="Damage" value=0 disabled />
         </form>
       </td>
 
       <td>
-        <form>
+        <form autocomplete="off">
           <label for="Attack">Attack: </label>
           <input type="text" id="Attack" value=0 disabled />
         </form>
       </td>
 
       <td>
-        <form>
+        <form autocomplete="off">
           <label for="HP">HP: </label>
           <input type="text" id="HP" value=0 disabled />
         </form>
       </td>
 
       <td>
-        <form>
+        <form autocomplete="off">
           <label for="AC: ">AC: </label>
           <input type="text" id="AC" value=0 disabled />
         </form>
